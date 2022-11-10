@@ -1,0 +1,22 @@
+@use "../components/variables" as *;
+@use "sass:color";
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans";
+}
+
+
+
+
+body{
+    background: linear-gradient(180deg, white 50%, color.scale($color-button-first-hover, $alpha: -70%) 100%);
+    background-repeat: no-repeat;
+    
+    
+    
+}
